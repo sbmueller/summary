@@ -1,3 +1,6 @@
+% summary tex template
+% (C) Copyright 2014 Sebastian Müller
+
 \documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{a4paper}                   		% ... or a4paper or a5paper or ... 
@@ -25,15 +28,18 @@
 \begin{itemize}
 	\item Item 1
 	\item Item 2
-	\item Item 3 
 \end{itemize}
 Lorem Ipsum.
-\subsection{Details}
-Lorem Ipsum.
+
+\section{Figure}
+\begin{figure}[h!]
+	\includegraphics[width=0.5\textwidth]{figures/graph}
+	\caption{A graph}
+\end{figure}
+
 \section{Equation}
 \begin{align}
 	\sum_{n=0}^{N-1} A_n = q
 \end{align}
-
 
 \end{document}  
