@@ -1,5 +1,7 @@
-summary.aux
-summary.log
-summary.out
-summary.synctex.gz
-summary.toc
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fdb_latexmk
+*.fls
